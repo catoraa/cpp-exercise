@@ -6,7 +6,7 @@ typedef struct{
     int numVertices,numEdge;
     char VerticesList[MAXV];
     int Edge[MAXV][MAXV];
-}MGraph;
+}MGraph;//实现邻接表
 
 int printVertices(MGraph G){
     int K=0,in,out;
