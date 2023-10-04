@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 const int MAXV=100;
 
 typedef struct{
