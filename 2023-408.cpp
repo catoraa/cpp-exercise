@@ -11,14 +11,14 @@ typedef struct{
 int printVertices(MGraph G){
     int K=0,in,out;
     for(int i=0;i<G.numVertices;i++){
-        in=0,out=0;//入度和出度的计数置零
+        in=0,out=0;//入度、出度的计数置零
         for(int j=0;j<G.numEdge;j++){
             out=out+G.Edge[i][j];//出度为i行所有元素之和
             in=in+G.Edge[j][i];//入度为i列所有元素之和
         }
         if(out>in){
-            printf("%c",G.VerticesList[i]);
-            K++;
+            printf("%c",G.VerticesList[i]);//输出K元素
+            K++;//记录K元素个数
         }
     }
        return K;
