@@ -8,8 +8,7 @@ int nextval(string* a){
 }
 
 int main(){
-    string a;
-    cin>>a;
-    cout<<nextval(&a);
+    string a = "abaabaabcabaabc";
+    string b = "abaabc";
     return 0;
 }
