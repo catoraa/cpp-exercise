@@ -1,9 +1,8 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
 typedef struct Node{
     int data;
-    node* next;
+    node* next; 
 }node;
 
 void reverse(node* n){
