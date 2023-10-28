@@ -1,5 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
 
 int partition(int a[],int low,int high){
 	int pivot=a[low];

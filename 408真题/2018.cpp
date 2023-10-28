@@ -1,6 +1,6 @@
-#include<iostream>
-#include<string.h>
-using namespace std;
+#include<stdio.h>
+#include<cstring>
+#include<stdlib.h>
 
 int findMissMin(int a[],int n){
     int i,*B;

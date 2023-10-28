@@ -1,5 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
 
 typedef struct BitTree{
 	int weight;

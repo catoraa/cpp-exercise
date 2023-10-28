@@ -1,6 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
-
+#include<stdio.h>
 
 int find_mid(int s1[],int s2[],int L){
 	int a=0,b=0,max=0;

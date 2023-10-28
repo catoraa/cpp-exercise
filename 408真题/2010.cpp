@@ -1,5 +1,4 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
 void reverse1(int a[],int l,int r){
 	for(int i=0;i<(r-l+1)/2;i++){

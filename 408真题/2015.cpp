@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
+
 typedef struct LinkNode{
 	int data;;
 	LinkNode *link;

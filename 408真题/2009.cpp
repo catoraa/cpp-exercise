@@ -1,10 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
 
 typedef struct LinkNode {
 	int data;
 	LinkNode *next;
-};
+}LinkNode;
 
 int find_k(LinkNode *L,int k){
 	LinkNode *p=L->next,*q=L->next;//指向第一个节点 

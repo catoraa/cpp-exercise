@@ -1,5 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
 
 const int MAXV=100;
 
