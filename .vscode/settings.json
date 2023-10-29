@@ -4,7 +4,7 @@
         "algorithm": "cpp",
         "random": "cpp",
         "cstring": "cpp",
-        "167两数之和ii-输入有序数组": "c"
+        "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
