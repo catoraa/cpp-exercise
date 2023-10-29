@@ -2,9 +2,13 @@
 using namespace std;
 
 int main(){
-    int n,k;
+    //int n,k;
     string a;
-    cin>>n>>k>>a;
-    sort(a.begin(),a.end());
+    while (1)
+    {
+        cin>>a;
+        sort(a.begin(),a.end());
+        cout<<a<<endl;
+    }
     return 0;
 }
