@@ -1,11 +1,14 @@
 #include<stdio.h>
+//找出主元素
+//先排序，后找主元素
+//麻烦
 
 int partition(int a[],int low,int high){
 	int pivot=a[low];
 	while(low<high){
 		while(low<high&&a[low]<=pivot)low++;
 		a[high]=a[low];
-		while(low<high&&a[high]>=pivot)high++;
+		while(low<high&&a[high]>=pivot)high--;
 		a[low]=a[high];
 	}
 	a[low]=pivot;
@@ -18,7 +21,6 @@ void quicksort(int a[],int l, int r){
 		quicksort(a,l,pivotpos-1);
 		quicksort(a,pivotpos+1,r);
 	}
-	
 }
 
 void findmain(int a[],int n){

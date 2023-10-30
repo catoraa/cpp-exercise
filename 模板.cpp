@@ -20,5 +20,5 @@ typedef struct LinkNode {
 typedef struct TreeNode {
 	int data;
 	TreeNode *left,*right;
-}TreeNode;//链表模板
+}TreeNode;//二叉树模板
 

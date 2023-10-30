@@ -3,17 +3,17 @@
 #include<stdlib.h>
 
 int findMissMin(int a[],int n){
-    int i,*B;
-    B=(int *)malloc(sizeof(int)*n);
-    memset(B,0,sizeof(int)*n);
+    int i,*tag;
+    tag=(int *)malloc(4*n);
+    memset(tag,0,4*n);
     for (i = 0; i < n ; i++)
     {
         if(a[i]>0&&a[i]<n)
-            B[a[i]-1]=1;
+            tag[a[i]-1]=1;
     }
     for (i = 0; i < n; i++)
     {
-        if (B[i]==0) break;
+        if (tag[i]==0) break;
     }
     return i+1;
     

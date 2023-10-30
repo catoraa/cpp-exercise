@@ -8,12 +8,12 @@ typedef struct LinkNode{
 void del(LinkNode *HEAD,int n){
 	int *tag;
 	LinkNode *p=HEAD,*d;
-	tag=(int *)malloc(sizeof(int)*(n+1));
-	memset(tag,0,sizeof(int)*(n+1));
+	tag=(int *)malloc(4*(n+1));
+	memset(tag,0,4*(n+1));
 	
 	while(p->link!=NULL){
 		if(tag[abs(p->link->data)]==0){
-			p->link;
+			p=p->link;
 			tag[abs(p->data)]=1;
 		}
 		else{
@@ -22,6 +22,7 @@ void del(LinkNode *HEAD,int n){
 			free(d);
 		}
 	}
+	free(tag);
 }
 
 int main(){
