@@ -1,13 +1,12 @@
 #include<stdio.h>
 
-typedef struct Node{
-    int data;
-    node* next; 
-}node;
-
-void reverse(node* n){
-    node* head=new node;
-    node* p=n;
+typedef struct LinkNode {
+	int data;
+	LinkNode *next;
+}LinkNode;
+void reverse(LinkNode* n){
+    LinkNode* head=new node;
+    LinkNode* p=n;
     while (n->next!=NULL)
     {
          
