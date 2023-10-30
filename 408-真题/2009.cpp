@@ -1,5 +1,6 @@
 #include<stdio.h>
-
+//倒数K问题
+//双指针
 typedef struct LinkNode {
 	int data;
 	LinkNode *next;
