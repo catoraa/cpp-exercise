@@ -1,5 +1,8 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
+// 快速排序
+// 时间复杂度O(nlogn) - 平均情况和最好情况，O(n^2) - 最坏情况（当数组已经有序时）
+// 空间复杂度O(logn) - 平均情况和最好情况，O(n) - 最坏情况
+// 不稳定
 
 int partition(int a[],int low,int high){
 	int pivot=a[low];

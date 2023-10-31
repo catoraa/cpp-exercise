@@ -1,4 +1,7 @@
 #include<stdio.h>
+// 二分查找
+// 时间复杂度O(logn)
+// 空间复杂度O(1)
 
 int binary_search(int *a,int n,int k){
     int low=0,high=n-1;
