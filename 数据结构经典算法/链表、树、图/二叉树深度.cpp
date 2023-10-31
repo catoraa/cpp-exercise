@@ -10,7 +10,7 @@ struct TreeNode {
 };
 
 int deep(TreeNode* T){
-    if(T==NULL)return 0;
+    if(!T)return 0;
     int leftlevel=deep(T->left);
     int rightlevel=deep(T->right);
     return 1+(leftlevel>rightlevel?leftlevel:rightlevel);
