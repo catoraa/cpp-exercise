@@ -1,14 +1,20 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 
-char * longestCommonPrefix(char ** strs, int strsSize){
-    if (strsSize==0)return "";
-    for (int i = 0; i < strsSize; i++)
-    {
-        for
+
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        if (strsSize==0)return "";
+        string s;
+        int len=s.length();
+        for (int i = 0; i < len; i++)
+        {
+            char 
+        }
+        
     }
-    
-}
-
+};
 int main(){
 
     return 0;
