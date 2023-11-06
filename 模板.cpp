@@ -8,10 +8,12 @@ int main(){
     return 0;
 }
 
-typedef struct LinkNode {
-	int data;
-	LinkNode *next;
-}LinkNode;//单链表模板
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};//单链表模板
 
 typedef struct LinkNode {
 	int data;
