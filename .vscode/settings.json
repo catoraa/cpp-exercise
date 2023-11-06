@@ -6,7 +6,10 @@
         "cstring": "cpp",
         "iostream": "cpp",
         "bitset": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "*.tcc": "cpp",
+        "vector": "cpp",
+        "limits": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
