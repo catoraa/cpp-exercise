@@ -26,13 +26,13 @@ void quicksort(int a[],int low,int high){
 
 int main(){
 	int a[15]={18,6,7,8,8,11,8,4,10,0,2,45,4,6,23};
-	cout<<"����ǰ:\n";
+	cout<<"排序前:\n";
 	for(int i=0;i<15;i++){
 		cout<<a[i]<<" ";
 	}
 	printf("\n");
 	quicksort(a,0,15);
-	cout<<"�����:\n";
+	cout<<"排序后:\n";
 	for(int i=0;i<15;i++){
 		cout<<a[i]<<" ";
 	}
