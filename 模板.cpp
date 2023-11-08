@@ -15,13 +15,12 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };//单链表模板
 
-typedef struct LinkNode {
-	int data;
-	LinkNode *pre,*next;
-}LinkNode;//双链表模板
-
-typedef struct TreeNode {
-	int data;
-	TreeNode *left,*right;
-}TreeNode;//二叉树模板
+struct TreeNode {
+     int val;
+     TreeNode *left;
+     TreeNode *right;
+     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ };
 
