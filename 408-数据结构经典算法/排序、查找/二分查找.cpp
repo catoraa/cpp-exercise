@@ -7,13 +7,12 @@ int binary_search(int *a,int n,int k){
     int low=0,high=n-1;
     while (low<high)
     {
-        int mid=(low+high)/2;
+        int mid=low+(high-low)/2;//避免溢出
         if(a[mid]==k) return mid;
-        else if (a[mid]>k)high=mid-1;
-        else low=mid+1;
+        else if (a[mid]>k)high=mid-1;//缩小范围到右半侧
+        else low=mid+1;//缩小范围到左半侧
     }
-    return -1;
-
+    return -1;//没有找到，返回-1
 }
 
 int main(){
